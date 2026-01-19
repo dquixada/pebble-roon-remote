@@ -1,0 +1,52 @@
+{
+  "name": "pebble-roon-remote",
+  "author": "J_B",
+  "version": "0.90.0",
+  "keywords": ["pebble-app"],
+  "private": true,
+  "dependencies": {},
+  "pebble": {
+    "displayName": "Roon Remote",
+    "uuid": "54d30c83-9b7e-4d43-9828-56784d650123",
+    "sdkVersion": "3",
+    "targetPlatforms": [
+      "aplite",
+      "basalt",
+      "chalk",
+      "diorite",
+      "emery"
+    ],
+    "enableMultiJS": true,
+    "watchapp": {
+      "watchface": false
+    },
+    "messageKeys": {
+      "command": 0,
+      "zone_name": 1,
+      "track": 2,
+      "artist": 3,
+      "is_playing": 4,
+      "volume_val": 5,
+      "is_fixed": 6
+    },
+    "resources": {
+      "media": [
+        {
+          "type": "bitmap",
+          "name": "IMAGE_LOGO",
+          "file": "resources/logo.png"
+        },
+        {
+          "type": "bitmap",
+          "name": "IMAGE_ICON",
+          "file": "resources/icon.png"
+        },
+        {
+          "type": "bitmap",
+          "name": "MENU_ICON",
+          "file": "resources/icon.png"
+        }
+      ]
+    }
+  }
+}
