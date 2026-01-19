@@ -2,7 +2,7 @@
 
 ![Banner](https://roon-community-uploads.s3.amazonaws.com/original/3X/1/8/18a68b9c52c9cd1d4eecbc934e78ec0501a325d6.jpeg)
 
-Control your Roon music zones directly from your wrist. This app works with the "Rebble" web services and connects to your local Roon Core via a lightweight bridge extension.
+Control your Roon music zones directly from your wrist. This app works with the Pebble web services and connects to your local Roon Core via a lightweight bridge extension.
 
 ### ✨ Features
 * **Track Control:** Play, Pause, Next, Previous.
